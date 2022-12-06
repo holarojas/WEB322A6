@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');*/
+
+html {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    /*background: #1ab7bc;*/
+    background: #668a8a;
+    color: white;
+    font-size: 30px;
+}
+
+.center {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*-------------- BANNER --------------*/
+.banner {
+    width: 100%;
+    padding: 10px;
+}
+
+/*-------------- NAVIGATION BAR --------------*/
+/*
+nav {
+    height: 40px;
+    font-family: sans-serif;
+    background: #383131;
+}
+
+nav ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 0 0 -12px;
+    padding: 0px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 10px 12px 13px 12px;
+    display: block;
+    line-height: 40px;
+    font: 95% Tahoma, sans-serif;
+    color: #ddd;
+    text-decoration: none;
+}
+*/
+nav ul li a:hover {
+    color: #fff;
+    /*background-color: #003d4d;*/
+    background-color: #ff4321;
+}
+
+
+
+/*-------------- MAIN SECTION --------------*/
+body {
+    /*font-family: sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+}
+
+.column {
+    float: left;
+    min-height: 150vh;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.left {
+    width: 20%;
+    font-size: medium;
+}
+
+.clTextBox {
+    padding-top: 100px;
+}
+
+/* -------------- REVIEWS SECTION -------------- */
+.right {
+    width: 25%;
+}
+
+.crTextBlock {
+    padding-top: 100px;
+}
+
+.crTitle {
+    padding: 10px;
+    text-align: center;
+}
+
+.crReview {
+    padding-top: 20px;
+    font-size: smaller;
+}
+
+/* -------------- MIDDLE SECTION -------------- */
+/*
+.middle {
+    width: 55%;
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+    border-spacing: 0 60px;
+    border: solid snow;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.tableRow {
+    border: solid snow;
+    background-color: #a6adad41;
+    font-size: smaller;
+
+}
+
+td a {
+    display: block;
+}
+*/
+/* -------------- FOOTER -------------- */
+footer {
+
+    background: #383131;
+    color: #eee;
+    position: relative;
+    min-height: 20vh;
+    padding: 5px 0px 20px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer ul li {
+    color: white;
+    list-style: none;
+    margin: 30px 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+footer ul li a:hover {
+    color: #ff4321;
+}
+
+.copyr {
+    margin-top: 50px;
+    color: #e46565;
+    font-size: small;
+    font-family: sans-serif;
+}
